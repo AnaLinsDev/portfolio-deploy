@@ -18,6 +18,8 @@ body::-webkit-scrollbar {
 } 
 
 body::-webkit-scrollbar-thumb {   
-background-color: rgb(0, 0, 0);   
+  background-color: rgb(0, 0, 0);   
+  border-radius: 20px;
+  margin-right: 2px;
 }
 
