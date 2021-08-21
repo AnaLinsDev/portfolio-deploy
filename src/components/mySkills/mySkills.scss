@@ -1,0 +1,54 @@
+.skills{
+    padding-top: 40px;
+    color: black;
+    font-size: 30px;
+    padding-left: 60px;
+    background-color: rgb(3, 238, 160);
+
+
+    ul{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-size: 20px;
+    }
+
+    .title{
+        padding-top: 40px;
+    }
+
+    .icons{
+        display: grid;
+        width: 60vw;
+        grid-template-columns: repeat(4, 1fr);
+        font-size: 50px;
+        padding: 10px;
+        border-radius: 20px;
+
+        .icon{
+            margin: 30px;
+        }
+    }
+
+}
+
+
+
+@media (max-width: 650px)
+{
+    .skills{
+        font-size: 35px;
+        padding-left: 10px;
+        .icons{
+            grid-template-columns: repeat(2, 1fr);
+        }
+        ul{
+            width: 100vw;
+            font-size: 20px;
+        
+        li{
+            margin-top: 40px;
+        }
+
+        }
+    }    
+}

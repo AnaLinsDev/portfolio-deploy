@@ -1,0 +1,60 @@
+.aboutMe{
+    height: auto;
+    margin-left: 50px;
+    padding-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    .descricao{
+        text-align: justify;
+        margin: 40px;
+    }
+
+    .social{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .icon{
+        font-size: 50px;
+        color: rgb(0, 0, 0);
+    }
+    .icon:hover{
+        color: rgb(3, 238, 160);
+    }
+    img{
+        margin-left: 80px;
+    }
+}
+
+
+@media (max-width: 850px)
+
+{
+    .aboutMe{
+        margin-left: 0px;
+        grid-template-columns: 1fr;
+
+        .descricao{
+            margin: 10%;
+        }
+
+        img{
+            text-align: center;
+            margin-left: 0px;
+        }
+    }
+
+}
+
+@media (max-width: 550px)
+
+{
+    .aboutMe{
+
+        img{
+            width: 300px;
+            height: 300px;
+        }
+    }
+
+}
