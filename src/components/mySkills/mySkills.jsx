@@ -28,10 +28,10 @@ const MySkills = () => {
         <SiRedux className='icon' />
         <SiJavascript className='icon' />
         <DiSass className='icon'/>
+        
         <SiCss3 className='icon' />
         <AiOutlineHtml5 className='icon' />
         <VscJson className='icon' />
-        <FiFigma className='icon' />
 
         <DiJava className='icon' />
         <SiPython className='icon' />

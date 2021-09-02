@@ -11,7 +11,7 @@ const PortfolioPage = () => {
     <div className='portfolio'>
 
         < AboutMe    />
-        < MySkills className='skillsColor'  />
+        < MySkills   />
         < MyProjects />
 
     </div>

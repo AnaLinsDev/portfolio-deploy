@@ -40,7 +40,6 @@
             grid-template-columns: repeat(3, 1fr);
         }
         ul{
-            width: 100vw;
             font-size: 20px;
         
         li{
@@ -55,17 +54,15 @@
 @media (max-width: 280px)
 {
     .skills{
-        font-size: 35px;
-        padding-left: 10px;
+
         .icons{
             grid-template-columns: repeat(2, 1fr);
         }
         ul{
-            width: 100vw;
-            font-size: 20px;
+            font-size: 15px;
         
         li{
-            margin-top: 40px;
+            margin-top: 20px;
         }
 
         }
