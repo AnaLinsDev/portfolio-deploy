@@ -6,46 +6,35 @@
     .hidden{
         text-align: center;
         width: 30px;
-        background-color: rgba(228, 225, 225, 0.897); 
-        padding: 10px;
-        border-radius: 50px;
 
         hr { 
             display: block; 
             border: 0; 
             border-top: 5px solid rgb(0, 0, 0);
          }
-        .show{
-            display: none;
-            
-    a{
-        background-color: rgb(3, 238, 160);
-        text-decoration: none;
-        color: black;
-        padding: 15px;
-        border: 4px solid whitesmoke;
+
     }
 
-    a:hover{
-        background-color: whitesmoke;
-        color: black;
-    }
+    .show{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 250px;
+        height: 150px;
+        font-size: 20px;
+        
+        a{
+            background-color: rgb(3, 238, 160);
+            text-decoration: none;
+            color: black;
+            padding: 15px;
+            border: 4px solid whitesmoke;
         }
-    }
 
-    .hidden:hover{
-        .show{
-            display: grid;
-            grid-template-columns: 1fr;
-            width: 220px;
-            height: 150px;
-            font-size: 20px;
-            a{
-                margin: 0;
+        a:hover{
+            background-color: whitesmoke;
+            color: black;
+        }
             }
-        }
-    }
-
 
 }
 
@@ -61,7 +50,7 @@
             background-color: white;
             border: 0.5px solid black;
             padding-right: 10px;
-            margin-bottom: 5px;
+           
         }
     }
 }

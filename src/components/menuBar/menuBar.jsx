@@ -1,25 +1,28 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './menuBar.scss'
 
-const menuBar = () => {
+function MenuBar(){
 
+    const [open, setOpen] = useState(1);
+    console.log(open)
     return (
+        
     <div className='menu'>
-        <div className='hidden'>
 
-        <hr/> <hr/> <hr/>
+        <div className='hidden' onClick={() => {setOpen(open * -1)}}>
+            <hr/> <hr/> <hr/>
+        </div>
+        {open == 1 ? '' :
 
         <div className='show'>
-
-        <a href="#aboutme">Sobre mim</a>
-        <a href="#myskills">Skills</a>
-        <a href="#myprojects">Projetos</a>
-        
+            <a href="#aboutme">Sobre mim</a>
+            <a href="#myskills">Skills</a>
+            <a href="#myprojects">Projetos</a>
         </div>
-        
-        </div>
+            
+        }
     </div>
     )
     }
 
-export default menuBar 
+export default MenuBar 

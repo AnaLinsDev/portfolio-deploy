@@ -49,6 +49,10 @@
                 border-radius: 20px;
                 background-color:rgb(0, 255, 136);
             }
+
+            .categoria:hover{
+                background-color:rgb(233, 169, 50);
+            }
         }
         a{
             margin-right: 20px;
@@ -147,6 +151,7 @@
 {
     .projects{
         padding-left: 0px;
+
         .conteiner{
             margin: 0;
             padding-left: 0px;
