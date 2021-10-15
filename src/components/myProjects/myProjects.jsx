@@ -14,25 +14,26 @@ const MyProjects = () => {
             {  
             projects.map( 
                 p => (
-                    <div>
-                <div  className='projetoPreview' key={p.id}
-                style=
-                {{ 
-                    backgroundImage: `url( ${p.image} )` ,
-                    backgroundSize:'cover',
-                    backgroundRepeat:'no-repeat'
-                }}
-                >
+                <div>
+                    <p className='nameProjectPreview'>{p.name}</p>
+                    <div  className='projetoPreview' key={p.id}
+                    style=
+                    {{ 
+                        backgroundImage: `url( ${p.image} )` ,
+                        backgroundSize:'cover',
+                        backgroundRepeat:'no-repeat'
+                    }}
+                    >
+                        </div>
+                    <div className='projetoInfo'>
+
+                    <div className='categoriaGrid'>
+                        {p.categories.map(cat => <p className='categoria'>{cat}</p>)}
+                        </div>
+
+                        <a href={p.link} target='_blank'  rel="noreferrer"  >Git Code</a>
+
                     </div>
-                <div className='projetoInfo'>
-
-                <div className='categoriaGrid'>
-                    {p.categories.map(cat => <p className='categoria'>{cat}</p>)}
-                    </div>
-
-                    <a href={p.link} target='_blank'  rel="noreferrer"  >Git Code</a>
-
-                </div>
 
                 </div>
 

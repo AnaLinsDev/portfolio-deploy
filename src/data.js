@@ -13,19 +13,19 @@ export const data =
         "image"      : "https://user-images.githubusercontent.com/60307596/130265320-63646d08-c7a4-490b-aadd-77cec15a7f80.PNG",
         "name"       : "Sites com detalhes de jogos gratuitos",
         "link"       : "https://github.com/AnaLinsDev/free-to-play-app-reactjs",
-        "categories" : ["React", "Redux","HTML", "Sass"]
+        "categories" : ["React", "Redux","HTML", "Sass", "API"]
     },
     {
         "id"         : 3,
         "image"      : "https://user-images.githubusercontent.com/60307596/82382876-27b56480-9a03-11ea-9664-fdd68acbc260.PNG",
-        "name"       : "Filtro de Monstros simples",
+        "name"       : "Filtro de Monstros",
         "link"       : "https://github.com/AnaLinsDev/monsters-reactjs2",
-        "categories" : ["React","HTML", "CSS"]
+        "categories" : ["React","HTML", "CSS", "API"]
     },
     {
         "id"         : 4,
         "image"      : "https://user-images.githubusercontent.com/60307596/83592476-d2b03d00-a530-11ea-9c2a-13dd20124023.PNG",
-        "name"       : "Loja de roupas ",
+        "name"       : "E-commerce de diversos tipos de roupas ",
         "link"       : "https://github.com/AnaLinsDev/clothing-store-reactjs",
         "categories" : ["React", "Redux", "HTML", "Sass"]
     },
@@ -39,8 +39,36 @@ export const data =
     {
         "id"         : 6,
         "image"      : "https://user-images.githubusercontent.com/60307596/130268378-39976987-1e4c-4cce-992f-f3d57498a323.png",
-        "name"       : "Projeto da disciplina de linguagem Script",
+        "name"       : "FanSite da série Rick and Morty",
         "link"       : "https://github.com/AnaLinsDev/rick-and-morty-javascript",
         "categories" : ["Javascript", "HTML", "CSS"]
     },
+    {
+        "id"         : 7,
+        "image"      : "https://user-images.githubusercontent.com/60307596/137559294-1066a4a1-c48a-4ea8-ba36-99645935c78e.png",
+        "name"       : "API simples de produtos com ExpressJs",
+        "link"       : "https://github.com/AnaLinsDev/crud-express",
+        "categories" : ["Javascript", "NodeJs", "ExpressJs", "API Rest"]
+    },
+    {
+        "id"         : 8,
+        "image"      : "https://user-images.githubusercontent.com/60307596/137561781-74aacbf8-72d4-4906-8527-86773976071d.png",
+        "name"       : "Gerenciador de filmes para usuarios/admins",
+        "link"       : "https://github.com/AnaLinsDev/MovieManager",
+        "categories" : ["Python", "POO", "MVC"]
+    },
+    {
+        "id"         : 9,
+        "image"      : "https://user-images.githubusercontent.com/60307596/130836777-97b5ea6c-9cab-42cd-8e3f-b71b98e3ff9d.png",
+        "name"       : "Site de analise do tempo por local",
+        "link"       : "https://github.com/AnaLinsDev/weather-app-vuejs",
+        "categories" : ["Vue", "HTML", "CSS"]
+    },
+    {
+        "id"         : 10,
+        "image"      : "https://user-images.githubusercontent.com/60307596/137562682-8b3a04d2-59b0-41c9-8d54-db6a30e1f03d.png",
+        "name"       : "TODO List por data e com usuário logado",
+        "link"       : "https://github.com/AnaLinsDev/todo-front-gps-deploy",
+        "categories" : ["React", "Redux", "HTML", "Sass", "Java", "SpringBoot", "SQLite"]
+    }
 ]
