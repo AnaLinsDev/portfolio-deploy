@@ -70,5 +70,19 @@ export const data =
         "name"       : "TODO List por data e com usuário logado",
         "link"       : "https://github.com/AnaLinsDev/todo-front-gps-deploy",
         "categories" : ["React", "Redux", "HTML", "Sass", "Java", "SpringBoot", "SQLite"]
+    },
+    {
+        "id"         : 11,
+        "image"      : "https://user-images.githubusercontent.com/60307596/137653338-d8dbf774-3569-4046-9744-7b4a30132d25.png",
+        "name"       : "CRUD de Clientes",
+        "link"       : "https://github.com/AnaLinsDev/crud_php",
+        "categories" : ["PHP Puro", "MariaDB", "PDO"]
+    },
+    {
+        "id"         : 12,
+        "image"      : "https://user-images.githubusercontent.com/60307596/137981864-3197c580-4501-4285-97c6-2a3ea9940914.png",
+        "name"       : "Gerenciador de funcionários",
+        "link"       : "https://github.com/AnaLinsDev/node_react_mysql_employee-management",
+        "categories" : ["React", "NodeJS", "Express" ,"MySQL"]
     }
 ]
